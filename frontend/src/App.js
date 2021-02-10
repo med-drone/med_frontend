@@ -5,6 +5,10 @@ import { Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Login from "./Login";
 
+import Onboard1 from "./Onboard1";
+import Onboard2 from "./Onboard2";
+import Onboard3 from "./Onboard3";
+
 
 class App extends Component {
   constructor() {
@@ -33,6 +37,11 @@ class App extends Component {
           <Link to="/">Home</Link>
 
           <Link to="/login">Login</Link>
+
+
+          <Link to="/onboard1">onboard1</Link>
+          <Link to="/onboard2">onboard2</Link>
+          <Link to="/onboard3">onboard3</Link>
         </header>
         <main className="appmain">
           <Route path="/" exact render={() => <Home />} />
@@ -40,6 +49,22 @@ class App extends Component {
             path="/login"
             exact
             render={() => <Login />}
+          />
+
+<Route
+            path="/onboard1"
+            exact
+            render={() => <Onboard1 />}
+          />
+            <Route
+            path="/onboard2"
+            exact
+            render={() => <Onboard2 />}
+          />
+            <Route
+            path="/onboard3"
+            exact
+            render={() => <Onboard3 />}
           />
          
         </main>
