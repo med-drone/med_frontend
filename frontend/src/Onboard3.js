@@ -2,7 +2,7 @@ import React from 'react'
 
 function Onboard3() {
     return (
-        <div>
+        <div className="one">
                    <img
          
          className="onboard2"
