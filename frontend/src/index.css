@@ -7,8 +7,14 @@
 body {
 
 
+<<<<<<< HEAD
   background-color: rgb(234, 237, 237);
   /* background-color: #005FB2; */
+=======
+
+  margin: 0;
+  background-color: white;
+>>>>>>> Added submit handler
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

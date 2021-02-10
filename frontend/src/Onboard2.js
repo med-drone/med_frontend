@@ -11,7 +11,7 @@ function Onboard2() {
        /> 
        <h1>Power Of Drones</h1>
        <p>Through modern Drone Technology we can bring vital medical supplies to any part of the world regardless of terrain or location</p>
-       <button>Next</button>
+       <button className="btn1">Next</button>
         </div>
     )
 }

@@ -32,17 +32,21 @@ class App extends Component {
   render() {
     return (
       <div className="head">
-        <header>
+        {/* <header>
         
           <Link to="/">Home</Link>
 
           <Link to="/login">Login</Link>
+<<<<<<< HEAD
 
 
           <Link to="/onboard1">onboard1</Link>
           <Link to="/onboard2">onboard2</Link>
           <Link to="/onboard3">onboard3</Link>
         </header>
+=======
+        </header> */}
+>>>>>>> Added submit handler
         <main className="appmain">
           <Route path="/" exact render={() => <Home />} />
           <Route
@@ -74,4 +78,3 @@ class App extends Component {
 }
 
 export default App;
-

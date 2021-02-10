@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
     display: flex;
     justify-content: center;
@@ -15,12 +16,40 @@
   /* .container{
   border-radius: 50%;
   } */
+=======
+.home-logo-container {
+	width: 400px;
+	height: 400px;
+	/* background-color: azure; */
+	margin: 40% auto 0 auto;
+}
+>>>>>>> Added submit handler
 
-  .home_image {
-    margin-left: 210px;
-    width: 30%;
-    border-radius: 50%;
+.splash {
+	width: 100vw;
+  height: 100vh;
+	overflow: hidden;
+}
+/* .splash h1{
+
+
+  color: white;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 42px;
   
+<<<<<<< HEAD
    
   }
   
+=======
+} */
+
+
+#title {
+	color: white;
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 42px;
+}
+>>>>>>> Added submit handler
