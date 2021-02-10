@@ -1,28 +1,39 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+
 // import { Link } from "react-router-dom";
 
-import "./Home.css";
-
+import './Home.css';
 
 function Home() {
-    return (
-        <div className="home">
-          <div className="container">
-          
-          <img
-         
-          className="home_image"
-          src="https://image.freepik.com/free-photo/white-drone-isolated-black-background_93200-360.jpg"
-          alt=""
-        />
-        
-        
+  let history = useHistory();
+  function loadNextPage(){
+   history.push('./login')
+  }
+	useEffect(() => {
+    setTimeout( loadNextPage , 3000);
+  }, []);
 
+	return (
+		<div
+			className='splash'
+			style={{
+				backgroundImage: "url('images/splash_background.png')",
+				backgroundSize: "100%",
+				backgroundRepeat: 'no-repeat',
+        backgroundPosition: "Bottom"
+			}}>
+			<div
+				className='home-logo-container'
+				style={{
+					backgroundImage: "url('images/drone_logo.png')",
+					backgroundSize: 'contain',
+					backgroundRepeat: 'no-repeat',
+				}}></div>
 
-      
-          </div>
-        </div>
-    )
+			<h1 id='title'>MEDDRONE</h1>
+		</div>
+	);
 }
 
-export default Home
+export default Home;

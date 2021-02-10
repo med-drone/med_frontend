@@ -28,12 +28,12 @@ class App extends Component {
   render() {
     return (
       <div className="head">
-        <header>
+        {/* <header>
         
           <Link to="/">Home</Link>
 
           <Link to="/login">Login</Link>
-        </header>
+        </header> */}
         <main className="appmain">
           <Route path="/" exact render={() => <Home />} />
           <Route
@@ -49,4 +49,3 @@ class App extends Component {
 }
 
 export default App;
-
