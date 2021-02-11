@@ -21,7 +21,7 @@ function Onboard3() {
             <h1>How it works</h1>
             <p>Browse from numerous vaccines medical supplies , and any other medications you may need</p>
             <p>Simply add what you need to the cart and we will fly them out to your location</p>
-            <Link to="/med1">
+            <Link to="/hello">
             <button className="btn1">Start your order</button>
        </Link>
        </div>
