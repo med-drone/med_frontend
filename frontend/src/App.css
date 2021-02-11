@@ -1,4 +1,4 @@
-.head header {
+/* .head header {
 
   height: 80px;
   align-content: center;
@@ -16,16 +16,122 @@ header a {
   text-decoration: none;
   color: gray;
   font-weight: bold;
+} */
+.one{
+  width:50vw;
+  height: 100vh;  
+  margin-left: 50px;
+  margin-top:40px;
+
 }
+.one h1{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.one p{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.btn1{
+  margin-top: 20px;
+    width: 190px;
+    height:35px;
+     background-color: #005FB2; 
+     color:white;
+     cursor:pointer;
+     font-size: 20px;
+     box-shadow:5px 5px 5px 5px  rgba(68, 68, 68, 0.6);
+   
+}
+.btn1:hover{
+  background: #005FB2;
+
+}
+.btn1active{
+
+  background: #005FB2;
+ transform:translateY(4px);
+}
+.all{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-content: center;
+align-items: center;
+}
+.all div{
+
+width:90px;
+height:35px;
+background-color: white;
+
+border: solid 2px #005FB2;
+
+border-radius: 5px;
+padding:10px;
+margin: 10px;
+
+}
+.all p{
+  margin-top: 25px;
+}
+
+
+
+.alert{
+width: 170px;
+height: 40px;
+font-size: 10px;
+border: solid 2px red;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+
+}
+
+.helloimg{
+  margin: 0 auto;
+}
+.hellop{
+margin-bottom: 10px;
+}
+.helloh1{
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 900px) {
+
 .one{
   width:30vw;
   height: 100vh;  
-  margin-left: 20px;
+  margin-left: 350px;
+  margin-top:40px;
+
+}
+.one h1{
+  margin-top: 20px;
+}
+.one p{
+  margin-top: 20px;
 }
 .btn1{
+  margin-top: 20px;
     width: 250px;
     height:45px;
      background-color: #005FB2; 
      color:white;
+     cursor:pointer;
+     font-size: 20px;
+     box-shadow:5px 5px 5px 5px  rgba(68, 68, 68, 0.6);
    
+}
+.btn1:hover{
+  background: #005FB2;
+
+}
+.btn1active{
+
+  background: #005FB2;
+ transform:translateY(4px);
+}
 }
