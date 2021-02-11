@@ -142,6 +142,9 @@ margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 900px) {
+  .logo1{
+    margin-left: 340px;
+  }
 
 .one{
   width:30vw;
@@ -149,6 +152,37 @@ margin-bottom: 10px;
   margin-left: 350px;
   margin-top:40px;
 
+}
+.two{
+  width:50vw;
+  height: 100vh;  
+  margin-left: 250px;
+  margin-top:40px;
+}
+.two .btn1{
+  margin-left: 120px;
+}
+.three{
+  margin-left:300px;
+}
+
+.two .onboard1 {
+  margin-left: 100px;
+}
+.two h1 {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.btn1{
+  /* margin-top: 20px; */
+    width: 250px;
+    height:45px;
+     /* background-color: #005FB2; 
+     color:white;
+     cursor:pointer;
+     font-size: 20px;
+     box-shadow:5px 5px 5px 5px  rgba(68, 68, 68, 0.6); */
+   
 }
 .one h1{
   margin-top: 20px;

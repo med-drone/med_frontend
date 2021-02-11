@@ -12,12 +12,13 @@ function Med3() {
     return (
         <div className="two">
             <h1 >Order Summary</h1>
-                <img
+               <div><img
          
          className="onboard1"
          src="images/Vector.png"
          alt=""
        /> 
+       </div> 
               <img
          
          className="onboard1"
