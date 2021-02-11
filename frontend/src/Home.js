@@ -8,7 +8,7 @@ import './Home.css';
 function Home() {
   let history = useHistory();
   function loadNextPage(){
-   history.push('./login')
+   history.push('./onboard1')
   }
 	useEffect(() => {
     setTimeout( loadNextPage , 3000);

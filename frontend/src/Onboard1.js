@@ -15,15 +15,12 @@ function Onboard1() {
       <p>An emergency medical supplier bringing vital resources to any location</p>
       <p>we partner with local health care facilities to bring cheap life-saving supplies to those who need it </p>
    
-      {/* <button className="btn1">
-        Next</button> */}
+      <button className="btn1">
+        Next</button>
        
 
 
-      <Link to="/onboard1">
-      <li className="btn1">
-        Next</li>
-        </Link> 
+      
         </div>
        
     )

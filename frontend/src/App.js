@@ -4,20 +4,20 @@ import { Route } from "react-router-dom";
 
 import Home from "./Home";
 import Login from "./Login";
-
+import Med1 from "./Med1";
+import Med2 from "./Med2";
+import Med3 from "./Med3";
+import Confirm from "./Confirm";
 import Onboard1 from "./Onboard1";
 import Onboard2 from "./Onboard2";
 import Onboard3 from "./Onboard3";
+import Graph1 from "./Graph1";
+import Graph2 from "./Graph2";
 import Hello from "./Hello";
 
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      index: 1,
-    };
-  }
+
 
 
   // Adding Link to different pages
@@ -26,12 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="head">
-        {/* <header>
-        
-          <Link to="/">Home</Link>
-
-          <Link to="/login">Login</Link>
-        </header> */}
+       
         <main className="appmain">
           <Route path="/" exact render={() => <Home />} />
           <Route
@@ -59,6 +54,36 @@ class App extends Component {
             path="/hello"
             exact
             render={() => <Hello />}
+          />
+           <Route
+            path="/med1"
+            exact
+            render={() => <Med1 />}
+          />
+           <Route
+            path="/med2"
+            exact
+            render={() => <Med2 />}
+          />
+           <Route
+            path="/med3"
+            exact
+            render={() => <Med3 />}
+          />
+           <Route
+            path="/confirm"
+            exact
+            render={() => <Confirm />}
+          />
+           <Route
+            path="/graph1"
+            exact
+            render={() => <Graph1 />}
+          />
+           <Route
+            path="/graph2"
+            exact
+            render={() => <Graph2 />}
           />
         </main>
       </div>

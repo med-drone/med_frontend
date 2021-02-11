@@ -40,11 +40,12 @@ header a {
      color:white;
      cursor:pointer;
      font-size: 20px;
+     border-radius: 5px;
      box-shadow:5px 5px 5px 5px  rgba(68, 68, 68, 0.6);
    
 }
 .btn1:hover{
-  background: #005FB2;
+  background: black;
 
 }
 .btn1active{
@@ -97,7 +98,23 @@ margin-bottom: 10px;
 .helloh1{
   margin-bottom: 10px;
 }
+.confirm{
+  width: 200px;
+  height: 200px;
+  border: solid 10px green;
+  border-radius: 50%;
+  margin-top: 10px;
 
+}
+#confirmh1{
+  font-size: 25px;
+}
+.icon{
+  font-size: large;
+}
+.check1{
+  margin-top: 40px;
+}
 
 @media only screen and (min-width: 900px) {
 
