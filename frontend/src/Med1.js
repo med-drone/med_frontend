@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect }  from 'react'
+import { useHistory } from 'react-router-dom';
 
 function Med1() {
+  let history = useHistory();
+  function loadNextPage(){
+   history.push('./med2')
+  }
+	useEffect(() => {
+    setTimeout( loadNextPage , 5000);
+  }, []);
     return (
         <div className="one">
            

@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import AddAlertIcon from '@material-ui/icons/AddAlert';
+import { useHistory } from 'react-router-dom';
 
 function Hello() {
+    let history = useHistory();
+    function loadNextPage(){
+     history.push('./med1')
+    }
+      useEffect(() => {
+      setTimeout( loadNextPage , 5000);
+    }, []);
     return (
         <div className="one">
             <h1 className="helloh1">Hello,Dr.Zac Morris</h1>

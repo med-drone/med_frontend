@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useEffect }  from 'react'
+// import { useHistory } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Graph2() {
+  // let history = useHistory();
+  // function loadNextPage(){
+  //  history.push('./')
+  // }
+	// useEffect(() => {
+  //   setTimeout( loadNextPage , 5000);
+  // }, []);
     return (
-        <div className="one">
-        <h1>Return to home</h1>
+        <div className="three">
+        <Link to="/">
+             <h1>Return to home</h1>
+             </Link>
         <img
     
     className="onboard1"

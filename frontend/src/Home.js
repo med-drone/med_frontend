@@ -24,14 +24,18 @@ function Home() {
         backgroundPosition: "Bottom"
 			}}>
 			<div
-				className='home-logo-container'
-				style={{
-					backgroundImage: "url('images/drone_logo.png')",
-					backgroundSize: 'contain',
-					backgroundRepeat: 'no-repeat',
-				}}></div>
+				className='home-logo-container'>
+				
+				<img
+         
+         className="logo1"
+         src="images/drone_logo.png"
+         alt=""
+       /> 
+	    	<h1 >MEDRONE</h1>
+				</div>
 
-			<h1 id='title'>MEDDRONE</h1>
+		
 		</div>
 	);
 }
